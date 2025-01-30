@@ -1246,6 +1246,8 @@
                 <skipTests>true</skipTests>
                 <skip.surefire.tests>true</skip.surefire.tests>
                 <skip.failsafe.tests>true</skip.failsafe.tests>
+                <sonar.organization>wb36499</sonar.organization>
+                <sonar.host.url>https://sonarcloud.io</sonar.host.url>
             </properties>
             <build>
                 <plugins>
@@ -1325,10 +1327,6 @@
                 </plugins>
             </build>
         </profile>
-        <properties>
-          <sonar.organization>wb36499</sonar.organization>
-          <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        </properties>
         <profile>
             <id>integration-test</id>
             <properties>
