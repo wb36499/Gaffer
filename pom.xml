@@ -69,7 +69,8 @@
         <avro.version>1.8.2</avro.version>
         <hadoop.version>3.3.3</hadoop.version>
         <jackson.version>2.13.5</jackson.version>
-
+  <sonar.organization>wb36499</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <clearspring.version>2.7.0</clearspring.version>
         <datasketches.version>4.0.0</datasketches.version>
         <commons-codec.version>1.15</commons-codec.version>
